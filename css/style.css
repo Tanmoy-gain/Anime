@@ -1,0 +1,239 @@
+.myrows
+{
+    border: 3px solid green;
+}
+
+.mycols
+{
+    border:3px solid red;
+}
+
+.mycontainer
+{
+    background-color: aqua;
+    border:3px solid yellow;
+}
+
+/*Top header email and phone number*/
+#topheader
+{
+    background-color: ghostwhite;
+    border-bottom: 1px solid silver;
+    text-align: right;
+}
+
+#topheader a
+{
+    color: #2c3e50;
+    font-weight: 600;
+    font-size:0.89rem;
+}
+
+.bottomfooter
+{
+    background-color: ghostwhite;
+    border-bottom: 1px solid silver;
+    text-align: right;
+}
+
+.bottomfooter a
+{
+    color: #2c3e50;
+    font-weight: 600;
+    font-size:0.89rem;
+}
+.container-fluid{
+    padding-left:0px;
+    padding-right: 0px;
+}
+
+#homeimage{
+    float: left;
+    padding: 5px 5px 10px 5px;   
+    width: 235px;
+    height:auto;
+}
+
+.text
+{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.bg-gradient
+{
+    background-color: #34495e;
+}
+
+.htext
+{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.rowpadding
+{
+    padding-bottom: 10px;
+}
+
+.imageoverlay
+{
+    
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    background-color: rgba(0, 0, 0,0.6);
+    opacity: 0;
+    transition:opacity 0.50s;
+    
+}
+.imageoverlay > *
+{
+    transform: translateY(90px);
+    transition: transform 0.5s;
+}
+
+.imageoverlay:hover > *
+{
+    transform: translateY(0px);
+    transition: transform 0.5s;
+}
+
+.imageoverlay:hover
+{
+    opacity: 1;
+}
+
+#image{
+    
+    float: left;
+    padding: 5px 5px 10px 5px;   
+    width: 350;
+    max-width: 500px;
+    height: 350px;;
+}
+
+#centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+
+/*Login page start*/
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+#login
+{
+    margin-top: 50px;
+}
+
+/*Login page end*/
+
+
+.homeimg
+{
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.hometext
+{
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.htxt
+{
+    position:absolute;
+}
+
+
+.homeimageoverlay
+{
+    
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    background-color: rgba(0, 0, 0,0.6);
+    opacity: 0;
+    transition:opacity 0.50s;
+    
+}
+.homeimageoverlay > *
+{
+    transform: translateY(90px);
+    transition: transform 0.5s;
+}
+
+.homeimageoverlay:hover > *
+{
+    transform: translateY(0px);
+    transition: transform 0.5s;
+}
+
+.homeimageoverlay:hover
+{
+    opacity: 1;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#1f1f1f;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  
+  .to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }

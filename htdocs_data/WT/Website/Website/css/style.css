@@ -1,0 +1,110 @@
+.myrows
+{
+    border: 3px solid green;
+}
+
+.mycols
+{
+    border:3px solid red;
+}
+
+.mycontainer
+{
+    background-color: aqua;
+    border:3px solid yellow;
+}
+
+#topheader
+{
+    background-color: ghostwhite;
+    border-bottom: 1px solid silver;
+    text-align: right;
+}
+
+#topheader a
+{
+    color: #2c3e50;
+    font-weight: 600;
+    font-size:0.89rem;
+}
+
+.container-fluid{
+    padding-left:0px;
+    padding-right: 0px;
+}
+
+#homeimage{
+    float: left;
+    padding: 5px 5px 10px 5px;   
+    width: 235px;
+    height:auto;
+}
+
+.text
+{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.bg-gradient
+{
+    background-color: #34495e;
+}
+
+.htext
+{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.rowpadding
+{
+    padding-bottom: 10px;
+}
+
+.imageoverlay
+{
+    
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    background-color: rgba(0, 0, 0,0.6);
+    opacity: 0;
+    transition:opacity 0.50s;
+    
+}
+.imageoverlay > *
+{
+    transform: translateY(90px);
+    transition: transform 0.5s;
+}
+
+.imageoverlay:hover > *
+{
+    transform: translateY(0px);
+    transition: transform 0.5s;
+}
+
+.imageoverlay:hover
+{
+    opacity: 1;
+}
+
+#image{
+    
+    float: left;
+    padding: 5px 5px 10px 5px;   
+    width: 350;
+    max-width: 500px;
+    height: 350px;;
+}
+
+.imgtxt
+{
+    
+
+}
